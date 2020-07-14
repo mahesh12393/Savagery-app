@@ -1,0 +1,13 @@
+body{
+font-family: Muli;
+}
+/*for containeers*/
+.cont1,.cont2,.cont3{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/*header class*/
+.head{
+    background: url(./img/navback.png);
+    height: 907px;
+}
