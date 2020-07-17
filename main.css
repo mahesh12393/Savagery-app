@@ -3,17 +3,25 @@ font-family: Muli;
 }
 /*for containeers*/
 .cont1,.cont2,.cont3{
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /*header class*/
-.head{
-    background: url(./img/navback.png);
-    height: 907px;
+   .head{
+        background: url(./img/navback.png);
+        height: 907px;
+    }
+@media(min-width:600px){
+    .head1{
+        margin-top:250px;
+    }
 }
 /*footer class*/
 .foot{
     background-color: #003049;
+}
+.emailinp{
+    border: none;
 }
 /*toalign notify button on g=headr and foter*/
 @media(max-width : 600px){
@@ -54,3 +62,32 @@ font-family: Muli;
      margin-left: -25px;
    }
 }
+/* for the icons 1,2,3,4*/
+.icon1{
+    background: #FA6800; 
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2), 0px 6px 30px rgba(0,0,0,0.12), 0px 16px 24px rgba(0,0,0,0.14);
+     width: 30px; 
+     height: 30px;
+}
+.icon2,.icon4{
+    background: #003049; 
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2), 0px 6px 30px rgba(0,0,0,0.12), 0px 16px 24px rgba(0,0,0,0.14);
+     width: 30px; 
+     height: 30px;
+}
+.icon3{
+    background: #F93F00; 
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2), 0px 6px 30px rgba(0,0,0,0.12), 0px 16px 24px rgba(0,0,0,0.14);
+     width: 30px; 
+     height: 30px;
+}
+@media(min-width: 600px){
+  .attach{
+    margin-left: -65px;
+  }
+}
+
+
+
+
+
